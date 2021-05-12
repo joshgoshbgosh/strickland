@@ -1,19 +1,26 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 import  Navbar  from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Image from 'react-bootstrap/Image'
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image';
+import beklogoblack from './../../images/beklogoblack.png';
 
 function Header(props){
   return(
-    <header className="d-none d-md-block">
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <header>
+    <Navbar sticky="top"collapseOnSelect expand="lg" bg="#00FFEF" variant="dark">
+<Navbar.Brand href="#home">    <img
+        src={beklogoblack}
+        width="200"
+        height="200"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
+      /></Navbar.Brand>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="mr-auto">
-    <Nav.Link href="#features">Features</Nav.Link>
+    <Nav.Link className="color-nav"href="#features">Features</Nav.Link>
     <Nav.Link href="#pricing">Pricing</Nav.Link>
     <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
       <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
