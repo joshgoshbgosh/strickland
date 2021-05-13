@@ -1,1 +1,27 @@
-
+a.nav-link {
+  color: black!important;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 7px;
+  margin-left: 4%;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 10 0' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+a.fbook.nav-link {
+  position: relative;
+  bottom: 2.8rem;
+  right: 9rem;
+font-size: 19px;
+  transform: rotate(337deg);
+  color: brown!important;
+}
+a.prest.nav-link {
+  position: relative;
+  bottom: 2.3rem;
+  right: 12.3rem;
+  transform: rotate(17deg);
+  color: brown!important;
+  font-size: 19px;
+}

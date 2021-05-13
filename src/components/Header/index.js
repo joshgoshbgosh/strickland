@@ -5,6 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import beklogoblack from './../../images/beklogoblack.png';
+import bekblkwht from './../../images/bekblkwht.jpg';
+import flower from './../../images/flower.png';
+import './index.css';
 
 function Header(props){
   return(
@@ -15,27 +18,26 @@ function Header(props){
         width="200"
         height="200"
         className="d-inline-block align-top"
-        alt="React Bootstrap logo"
+
       /></Navbar.Brand>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="mr-auto">
-    <Nav.Link className="color-nav"href="#features">Features</Nav.Link>
-    <Nav.Link href="#pricing">Pricing</Nav.Link>
-    <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-      <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-      <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-      <NavDropdown.Divider />
-      <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-    </NavDropdown>
+    <Nav.Link href="#features">ABOUT</Nav.Link>
+    <Nav.Link href="#pricing">SERVICES</Nav.Link>
+    <Nav.Link href="#pricing">CONTACT</Nav.Link>
+
   </Nav>
-  <Nav>
-    <Nav.Link href="#deets">More deets</Nav.Link>
-    <Nav.Link eventKey={2} href="#memes">
-      Dank memes
-    </Nav.Link>
-  </Nav>
+  <img
+         src={flower}
+         width="120"
+         height="120"
+         className="  align-top d-none d-lg-block"
+
+       />
+
+  <Nav.Link className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></Nav.Link>
+  <Nav.Link className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></Nav.Link>
 </Navbar.Collapse>
 </Navbar>
     </header>
