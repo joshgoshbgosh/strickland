@@ -13,11 +13,11 @@ function Header(props){
   return(
     <header>
     <Navbar sticky="top"collapseOnSelect expand="lg" bg="#00FFEF" variant="dark">
-<Navbar.Brand href="#home">    <img
+<Navbar.Brand href="/">    <img
         src={beklogoblack}
         width="200"
         height="200"
-        className="d-inline-block align-top"
+        className="d-inline-block align-top"to="/"
 
       /></Navbar.Brand>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
