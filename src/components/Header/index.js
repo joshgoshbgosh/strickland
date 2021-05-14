@@ -13,16 +13,16 @@ function Header(props){
   return(
     <header>
     <Navbar sticky="top"collapseOnSelect expand="lg" bg="#00FFEF" variant="dark">
-    <NavLink>
+    <Nav.Link href='/'>
       <Image src={beklogoblack}width="200"height="200"className="d-inline-block align-top"to="/"/>
 
-      </NavLink>
+      </Nav.Link>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="mr-auto">
-    <NavLink to='/about'>ABOUT</NavLink>
-    <NavLink to='/services'>SERVICES</NavLink>
-    <NavLink to='/contact'>CONTACT</NavLink>
+    <Nav.Link className="nav-link nav-about"href='/about'>ABOUT</Nav.Link>
+    <Nav.Link className="nav-link nav-services"href='/services'>SERVICES</Nav.Link>
+    <Nav.Link className="nav-link nav-contact"href='/contact'>CONTACT</Nav.Link>
 
   </Nav>
   <Image
@@ -33,8 +33,8 @@ function Header(props){
 
        />
 
-  <NavLink className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></NavLink>
-  <NavLink className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></NavLink>
+  <Nav.Link className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></Nav.Link>
+  <Nav.Link className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></Nav.Link>
 </Navbar.Collapse>
 </Navbar>
     </header>
