@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import beklogoblack from './../../images/beklogoblack.png';
 import bekblkwht from './../../images/bekblkwht.jpg';
-import flower from './../../images/flower.png';
+import tools from './../../images/tools.png';
 import './index.css';
 
 function Header(props){
@@ -26,15 +26,15 @@ function Header(props){
 
   </Nav>
   <Image
-         src={flower}
+         src={tools}
          width="120"
          height="120"
-         className="  align-top d-none d-lg-block"
+         className="  tools align-top d-none d-lg-block"
 
        />
 
-  <Nav.Link className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></Nav.Link>
-  <Nav.Link className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></Nav.Link>
+  <a className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+  <a className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
 </Navbar.Collapse>
 </Navbar>
     </header>

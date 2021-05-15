@@ -9,33 +9,29 @@ a.nav-link {
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg viewBox='0 10 0' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
-a.fbook.nav-link {
-  position: relative;
-  bottom: 2.7rem;
-  right: 8.8rem;
-font-size: 19px;
-  transform: rotate(337deg);
-  color: brown!important;
-}
+
 a.nav-link.nav-about {
   margin-left: 3rem;
+  font-size: 9px;
   margin-top: 8px;
+  letter-spacing: 8px;
 }
 a.nav-link.nav-services {
   margin-left: 3rem;
   margin-top: 8px;
+  letter-spacing: 8px;
+  font-size: 9px;
 }
 a.nav-link.nav-contact {
   margin-left: 3rem;
+  letter-spacing: 8px;
   margin-top: 8px;
+  font-size: 9px;
 
 
 }
-a.prest.nav-link {
-  position: relative;
-  bottom: 2rem;
-  right: 12rem;
-  transform: rotate(17deg);
-  color: brown!important;
-  font-size: 19px;
+
+.tools {
+  margin-top: 30px;
+  margin-right: 4rem;
 }
