@@ -19,7 +19,7 @@ function Header(props){
       </Nav.Link>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
-  <Nav className="mr-auto">
+  <Nav className=" mr-auto">
     <Nav.Link className="nav-link nav-about"href='/about'>ABOUT</Nav.Link>
     <Nav.Link className="nav-link nav-services"href='/services'>SERVICES</Nav.Link>
     <Nav.Link className="nav-link nav-contact"href='/contact'>CONTACT</Nav.Link>
