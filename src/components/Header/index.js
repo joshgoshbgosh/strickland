@@ -33,8 +33,7 @@ function Header(props){
 
        />
 
-  <a className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-  <a className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
+  
 </Navbar.Collapse>
 </Navbar>
     </header>

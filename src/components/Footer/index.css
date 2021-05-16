@@ -1,4 +1,13 @@
 footer{
-  background-color: black;
-  height: 40rem;
+
+  height: 20rem;
+}
+footer:after {
+  content: "";
+  display:block;
+  margin:0 auto;
+  width: 70%;
+  padding-top: 20px;
+  border-top: 1px solid black;
+  border-top-width: thin;
 }

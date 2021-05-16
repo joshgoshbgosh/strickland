@@ -1,0 +1,15 @@
+.top-intro-div {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.bekblkwhthome {
+
+  width: 80%;
+}
+.bek-photo-div {
+  width: 70%;
+  display:flex;
+  justify-content: center;
+}
