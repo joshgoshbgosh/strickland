@@ -15,20 +15,36 @@ a.nav-link.nav-about {
   font-size: 9px;
   margin-top: 8px;
   letter-spacing: 8px;
+  transition-duration: 1s;
+}
+a.nav-link.nav-about:hover {
+  transition-duration: 1s;
+  color:#00FFEF!important;
+  font-weight: bold;
 }
 a.nav-link.nav-services {
   margin-left: 3rem;
   margin-top: 8px;
   letter-spacing: 8px;
   font-size: 9px;
+  transition-duration: 1s;
+}
+a.nav-link.nav-services:hover {
+  transition-duration: 1s;
+  color:#00FFEF!important;
+  font-weight: bold;
 }
 a.nav-link.nav-contact {
   margin-left: 3rem;
   letter-spacing: 8px;
   margin-top: 8px;
   font-size: 9px;
-
-
+  transition-duration: 1s;
+}
+a.nav-link.nav-contact:hover {
+  transition-duration: 1s;
+  color:#00FFEF!important;
+  font-weight: bold;
 }
 
 

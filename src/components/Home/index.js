@@ -10,14 +10,24 @@ class Home extends Component {
     return (
       <div>
         <div className="top-intro-div">
+        <div className="home-card-div d-none d-lg-block">
           <div className="bek-photo-div">
             <img className="bekblkwhthome"src={bekblkwht}/>
           </div>
+
+        </div>
+        <div className="ratebox">
           <div className="intro-right">
-          <a className="fbook d-none d-lg-block"href="https://www.facebook.com/rebekah.lanier"target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-          <a className="prest d-none d-lg-block"href="https://www.pinterest.com/bekahashley/_saved/"target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
-            <h3>COSMETOLOGIST</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
           </div>
+          <div className="rating">
+            <h3>FIVE STAR RATING</h3>
+          </div>
+        </div>
         </div>
       </div>
     );
