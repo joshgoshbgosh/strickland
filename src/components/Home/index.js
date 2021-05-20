@@ -11,6 +11,10 @@ import bedhead from './../../images/bedhead.png';
 import goldwell from './../../images/goldwell.png';
 import itsaten from './../../images/itsaten.png';
 import joicologo from './../../images/joicologo.png';
+import kms from './../../images/kms.png';
+import matrix from './../../images/matrix.png';
+import moroccanoil from './../../images/moroccanoil.png';
+import sexyhairlogo from './../../images/sexyhairlogo.png';
 import './index.css';
 
 class Home extends Component {
@@ -34,18 +38,7 @@ class Home extends Component {
           <div className="intro-right">
 
           </div>
-          <div className="products">
-            <div className="rowOne">
-              <img className="americancrew"src={americancrew}/>
-              
-              <img className="bedhead"src={bedhead}/>
-            </div>
-            <div className="rowTwo">
-              <img className="goldwell"src={goldwell}/>
-
-              <img className="joicologo"src={joicologo}/>
-            </div>
-          </div>
+          
         </div>
         </div>
         <div className="testimonial">
@@ -55,7 +48,35 @@ class Home extends Component {
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         </div>
+        <div className="products">
+          <div className="rowOne">
+            <img className="americancrew"src={americancrew}/>
+
+            <img className="bedhead"src={bedhead}/>
+          </div>
+          <div className="rowTwo">
+            <img className="goldwell"src={goldwell}/>
+
+            <img className="joicologo"src={joicologo}/>
+          </div>
+          <div className="rowThree">
+            <img className="aquage"src={aquage}/>
+
+            <img className="itsaten"src={itsaten}/>
+          </div>
+          <div className="rowFour">
+            <img className="kms"src={kms}/>
+
+            <img className="matrix"src={matrix}/>
+          </div>
+          <div className="rowFive">
+            <img className="moroccanoil"src={moroccanoil}/>
+
+            <img className="sexyhairlogo"src={sexyhairlogo}/>
+          </div>
+        </div>
       </div>
+
     );
   }
 }
