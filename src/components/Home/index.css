@@ -2,7 +2,7 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height:40rem;
+  height:50rem;
   /* width: 100%; */
 }
 .bekblkwhthome {
@@ -38,15 +38,40 @@
 }
 .rating {
   text-align: center;
-  margin-top: 10%;
-
+  margin-top: 40%;
 }
-.rating > h3 {
+.americancrew {
+  width: 35%;
+}
+.aquage {
+   width: 20%;
+}
+.bedhead {
+  width: 35%;
+}
+.rowOne {
+  display: flex;
+  justify-content: space-around;
+}
+.goldwell {
+  width: 35%;
+}
+.itsaten {
+  width: 30%;
+}
+.joicologo {
+  width: 45%;
+}
+.rowTwo {
+  display: flex;
+  justify-content: space-around;
+}
+/* .rating > h3 {
   font-family:sans-serif;
   font-weight: 500;
   font-size: 25px;
   letter-spacing: 3px;
-}
+} */
 .home-card-div {
   width: 50%;
   height: 430px;
