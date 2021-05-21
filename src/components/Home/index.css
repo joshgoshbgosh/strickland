@@ -50,6 +50,8 @@
   width: 35%;
 }
 .rowOne {
+
+  margin-left: 10%;
   display: flex;
   justify-content: space-around;
 }
@@ -57,6 +59,8 @@
   width: 35%;
 }
 .rowThree {
+  margin-top: 3%;
+  margin-left: 8%;
   display: flex;
   justify-content: space-around;
 }
@@ -67,6 +71,8 @@
   width: 45%;
 }
 .rowTwo {
+  margin-top: 3%;
+  margin-left: 10%;
   display: flex;
   justify-content: space-around;
 }
@@ -105,13 +111,15 @@
 
 }
 .rowFour {
+  margin-top: 5%;
+  margin-left: 8%;
   display: flex;
   justify-content: space-around;
 }
-.rowFive {
 
-}
 .rowFive {
+  margin-top: 5%;
+  margin-left: 10%;
   display: flex;
   justify-content: space-around;
 }
@@ -119,8 +127,8 @@
   width: 35%;
 }
 .sexyhairlogo {
-  width: 55%;
+  width: 45%;
 }
 .testimonial {
-  height: 30rem;
+  height: auto;
 }

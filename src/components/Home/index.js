@@ -38,7 +38,7 @@ class Home extends Component {
           <div className="intro-right">
 
           </div>
-          
+
         </div>
         </div>
         <div className="testimonial">
@@ -50,29 +50,29 @@ class Home extends Component {
         </div>
         <div className="products">
           <div className="rowOne">
-            <img className="americancrew"src={americancrew}/>
+            <a className="americancrew"href="https://www.americancrew.com/"target="_blank" rel="noopener noreferrer"><img className="americancrew"src={americancrew}/></a>
 
-            <img className="bedhead"src={bedhead}/>
+            <a className="bedhead"href="https://www.bedhead.com/us/"target="_blank" rel="noopener noreferrer"><img className="bedhead"src={bedhead}/></a>
           </div>
           <div className="rowTwo">
-            <img className="goldwell"src={goldwell}/>
+            <a className="goldwell"href="https://www.goldwell.com/en-us/home/"target="_blank" rel="noopener noreferrer"><img className="goldwell"src={goldwell}/></a>
 
-            <img className="joicologo"src={joicologo}/>
+            <a className="joicologo"href="https://www.joico.com/"target="_blank" rel="noopener noreferrer"><img className="joicologo"src={joicologo}/></a>
           </div>
           <div className="rowThree">
-            <img className="aquage"src={aquage}/>
+            <a className="aquage"href="https://aquage.com/"target="_blank" rel="noopener noreferrer"><img className="aquage"src={aquage}/></a>
 
-            <img className="itsaten"src={itsaten}/>
+            <a className="itsaten"href="https://itsa10haircare.com/"target="_blank" rel="noopener noreferrer"><img className="itsaten"src={itsaten}/></a>
           </div>
           <div className="rowFour">
-            <img className="kms"src={kms}/>
+            <a className="kms"href="https://www.kmshair.com/en-US/Style-Matters/"target="_blank" rel="noopener noreferrer"><img className="kms"src={kms}/></a>
 
-            <img className="matrix"src={matrix}/>
+            <a className="matrix"href="https://www.matrix.com/"target="_blank" rel="noopener noreferrer"><img className="matrix"src={matrix}/></a>
           </div>
           <div className="rowFive">
-            <img className="moroccanoil"src={moroccanoil}/>
+            <a className="moroccanoil"href="https://www.moroccanoil.com/us_en/limited-edition-dry-shampoo"target="_blank" rel="noopener noreferrer"><img className="moroccanoil"src={moroccanoil}/></a>
 
-            <img className="sexyhairlogo"src={sexyhairlogo}/>
+            <a className="sexyhairlogo"href="https://www.sexyhair.com/"target="_blank" rel="noopener noreferrer"><img className="sexyhairlogo"src={sexyhairlogo}/></a>
           </div>
         </div>
       </div>
