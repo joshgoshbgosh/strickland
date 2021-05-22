@@ -1,4 +1,76 @@
 footer{
+  background-color: black;
 
-  height: 20rem;
+  height: auto;
+}
+.designImg {
+}
+.dsignpic {
+  width: 90px;
+  display:inline-block;
+
+
+
+}
+.sDesigns-div {
+  display: flex;
+  justify-content: center;
+  border-top: solid;
+  border-top-color: white;
+  border-top-width: thin;
+}
+.website > h5 {
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 39px;
+  margin-right: 12px;
+}
+.icondiv {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid;
+  border-color: white;
+  border-width: thin;
+}
+.fbookdiv {
+
+}
+.prest {
+  font-size: 55px;
+  color: pink;
+}
+.prest:hover {
+  color: pink;
+}
+.fbook {
+  font-size: 55px;
+  
+  color: #00FFEF;
+}
+.fbook:hover {
+  color:#00FFEF;
+}
+.address {
+  color: white;
+  text-align: center;
+}
+.salon {
+
+  color: white;
+}
+.top-div {
+  display: flex;
+  justify-content: space-between;
+}
+.rsdiv {
+  border-left: solid white thin;
+  display: flex;
+  justify-content: center;
+}
+.rightside {
+  border-left: solid white thin;
+  width: 50%;
 }
