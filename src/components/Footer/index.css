@@ -64,6 +64,7 @@ footer{
 .top-div {
   display: flex;
   justify-content: space-between;
+  border-top: solid white thin;
 }
 .rsdiv {
   border-left: solid white thin;
@@ -117,4 +118,20 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.ptag {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.hoursDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-top: solid white thin;
+}
+.hour {
+  margin-top: 2%;
 }

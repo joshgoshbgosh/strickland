@@ -12,6 +12,14 @@ class Footer extends Component {
 
       <div>
       <footer>
+      <div className="hoursDiv">
+          <p className="ptag hour">HOURS</p>
+          <p className="ptag">TUESDAY 10:00 - 7:30</p>
+          <p className="ptag">WEDNESDAY 10:00 - 3:00</p>
+          <p className="ptag">THURSDAY 10:00 - 7:30</p>
+          <p className="ptag">OPEN ONLY ONE SATURDAY A MONTH</p>
+          <p className="ptag">SATURDAY 9:00 - 4:00</p>
+      </div>
       <div className="top-div">
         <div className="inner-div">
             <div className="contactDiv">
