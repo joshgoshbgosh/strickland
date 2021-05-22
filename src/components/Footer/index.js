@@ -13,21 +13,24 @@ class Footer extends Component {
       <div>
       <footer>
       <div className="top-div">
-        <div>
-            <div>
-              <img src={beklogowhite}/>
+        <div className="inner-div">
+            <div className="contactDiv">
+              <p>CONTACT</p>
             </div>
-            <div>
+            <div className="emailDiv">
               <a className="email">rmlanier17@gmail.com</a>
             </div>
-            <div>
+            <div className="numberDiv">
               <a className="phonenumber"href="tel:9192191966">(919)219-1966</a>
             </div>
+            <div className="locationDiv">
+              <p>LOCATION</p>
+            </div>
             <div className="salon">
-              Salon 55
+              <p>Salon 55</p>
             </div>
             <div className="adddiv">
-              <p className="address">1363 N Raliegh, Angier, NC 27501</p>
+              <a className="address" href="https://www.google.com/maps/place/Salon+55/@35.5266478,-78.7469193,17z/data=!3m2!4b1!5s0x89ac8678534ead99:0xada10443779e3cf8!4m5!3m4!1s0x89ac8679aa1a9bc5:0xc3d943bc098a6cf0!8m2!3d35.5266435!4d-78.7447306"target="_blank" rel="noopener noreferrer">1363 N Raliegh, Angier, NC 27501</a>
             </div>
 
           </div>

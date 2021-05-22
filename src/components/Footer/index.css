@@ -47,7 +47,7 @@ footer{
 }
 .fbook {
   font-size: 55px;
-  
+
   color: #00FFEF;
 }
 .fbook:hover {
@@ -73,4 +73,48 @@ footer{
 .rightside {
   border-left: solid white thin;
   width: 50%;
+}
+.emailDiv {
+  text-align:center;
+}
+.emailDiv > a {
+  color: pink;
+}
+.contactDiv {
+  text-align:center;
+  color: white;
+  letter-spacing: 10px;
+  font-size: 12px;
+}
+.numberDiv {
+  text-align:center;
+}
+.numberDiv > a {
+  color: pink;
+}
+.locationDiv {
+  border-top: solid white thin;
+  margin-top: 4%;
+  padding-top: 3%;
+  text-align:center;
+  color: white;
+  letter-spacing: 10px;
+  font-size: 12px;
+
+}
+.salon {
+  text-align:center;
+  margin-bottom: -2%;
+}
+.adddiv {
+  text-align:center;
+}
+.adddiv > a {
+  color:pink
+}
+.inner-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
