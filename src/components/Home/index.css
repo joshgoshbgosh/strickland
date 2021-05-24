@@ -2,7 +2,7 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height:50rem;
+  height:auto;
   /* width: 100%; */
 }
 .bekblkwhthome {
@@ -99,8 +99,9 @@
   width: 100%;
 }
 .products {
-  height: 60rem;
+  height:auto;
   margin-top: 7%;
+  margin-bottom: 7%;
 }
 .matrix {
   width: 35%;

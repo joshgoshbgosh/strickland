@@ -1,0 +1,13 @@
+.toppic > img {
+  width: 60%;
+
+  margin-left: 22%;
+}
+.toppic {
+  width:  100%;
+}
+.cuts {
+  text-align: center;
+  margin-top: 5%;
+  height: auto;
+}

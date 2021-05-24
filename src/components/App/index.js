@@ -4,6 +4,7 @@ import Header from './../Header';
 import Home from './../Home';
 import Footer from './../Footer';
 import Contact from './../Contact';
+import Services from './../Services';
 import './index.css';
 
 
@@ -19,7 +20,7 @@ render(){
       <Switch>
         <Route path='/'component={Home} exact/>
         <Route path='/contact'component={Contact}/>
-      
+        <Route path='/services'component={Services}/>
       </Switch>
     </div>
       <Footer/>

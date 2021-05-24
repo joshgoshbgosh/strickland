@@ -19,6 +19,7 @@ import './index.css';
 
 class Home extends Component {
   render() {
+
     return (
       <div>
         <div className="top-intro-div">
@@ -41,6 +42,8 @@ class Home extends Component {
 
         </div>
         </div>
+
+        
         <div className="testimonial">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
