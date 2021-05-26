@@ -1,0 +1,41 @@
+.topContact {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.topContact > img {
+  width: 50%;
+  height: auto;
+}
+.formDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+form {
+
+  display: flex;
+  flex-direction: column;
+
+  width: 45%;
+}
+input {
+  border: solid #FF86CD thin;
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+input:focus {
+    outline: none;
+}
+.submit {
+  margin-left: 34%;
+  margin-top:4%;
+  width: 30%;
+  text-align: center;
+}
+.message {
+  padding-bottom: 60px;
+}
