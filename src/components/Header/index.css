@@ -18,9 +18,10 @@ a.nav-link.nav-about {
   transition-duration: 1s;
 }
 a.nav-link.nav-about:hover {
-  transition-duration: 1s;
+  /* transition-duration: 1s;
   color:#00FFEF!important;
-  font-weight: bold;
+  font-weight: bold; */
+  text-decoration:  line-through;
 }
 a.nav-link.nav-services {
   margin-left: 3rem;
@@ -30,9 +31,7 @@ a.nav-link.nav-services {
   transition-duration: 1s;
 }
 a.nav-link.nav-services:hover {
-  transition-duration: 1s;
-  color:#00FFEF!important;
-  font-weight: bold;
+  text-decoration:  line-through;
 }
 a.nav-link.nav-contact {
   margin-left: 3rem;
@@ -42,9 +41,7 @@ a.nav-link.nav-contact {
   transition-duration: 1s;
 }
 a.nav-link.nav-contact:hover {
-  transition-duration: 1s;
-  color:#00FFEF!important;
-  font-weight: bold;
+  text-decoration:  line-through;
 }
 
 

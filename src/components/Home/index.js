@@ -15,6 +15,7 @@ import kms from './../../images/kms.png';
 import matrix from './../../images/matrix.png';
 import moroccanoil from './../../images/moroccanoil.png';
 import sexyhairlogo from './../../images/sexyhairlogo.png';
+import bek1 from './../../images/bek1.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -29,11 +30,22 @@ class Home extends Component {
           </div>
 
         </div>
+        <div>
         <div className="home-card-div d-none d-lg-block">
           <div className="bek-photo-div">
             <img className="bekblkwhthome"src={bekblkwht}/>
           </div>
+          </div>
 
+        </div>
+        <div className="missionBox">
+          <div className="missionContent">
+            <h1>MY MISSION</h1>
+            <p>My mission is to build strong relationships with my clients based on
+            trust, honesty, and communication.  I want everyone who sits in my chair
+            to feel like their voice is being heard.  When you leave I want you feeling
+            confident and beautiful.</p>
+          </div>
         </div>
         <div className="ratebox">
           <div className="intro-right">
@@ -43,7 +55,7 @@ class Home extends Component {
         </div>
         </div>
 
-        
+
         <div className="testimonial">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
