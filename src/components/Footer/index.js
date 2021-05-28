@@ -26,7 +26,7 @@ class Footer extends Component {
               <p>CONTACT</p>
             </div>
             <div className="emailDiv">
-              <a className="email">rmlanier17@gmail.com</a>
+              <a className="email"href="/contact">rmlanier17@gmail.com</a>
             </div>
             <div className="numberDiv">
               <a className="phonenumber"href="tel:9192191966">(919)219-1966</a>

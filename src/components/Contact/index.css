@@ -35,7 +35,44 @@ input:focus {
   margin-top:4%;
   width: 30%;
   text-align: center;
+  margin-bottom: 5%;
 }
 .message {
   padding-bottom: 60px;
+}
+.contactInfo {
+  width: 100%;
+  height: auto;
+  background-color: #FFE4DF;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.emailContact {
+  padding-top: 1%;
+  color: #89736F;
+}
+.emailContact:hover {
+  color: #89736F;
+}
+.phone {
+  color: #89736F;
+}
+.phone:hover {
+  color: #89736F;
+}
+.locationContact > p {
+  color:#89736F;
+  margin-top: 1.5%;
+}
+.salonContact > p {
+  color:#89736F;
+  margin-top:1%;
+}
+.addContact {
+  color:#89736F;
+  padding-bottom: 3%;
+  margin-top: -1%;
+}
+.addContact:hover {
+  color: #89736F;
 }
