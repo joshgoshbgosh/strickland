@@ -12,7 +12,8 @@
   height: auto;
 }
 .cuts > h2 {
-  margin-top: 6%;
+  
+  margin-top: 1%;
   letter-spacing: 1px;
   font-family:  sans-serif;
   font-weight: 300;
@@ -20,9 +21,13 @@
 
 }
 .cuts > h4 {
+  color:#999999;
   margin-top: 3%;
   letter-spacing: 1px;
   font-weight: 300;
+}
+.cuts > img {
+  width: 6%;
 }
 .a {
   color: #FF86CD;

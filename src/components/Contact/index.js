@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import contact from './../../images/contact.jpg';
+import bek1 from './../../images/bek1.jpg';
 import './index.css';
 
 class Contact extends Component {
@@ -38,7 +39,7 @@ class Contact extends Component {
         <button className="submit"type="submit">SEND</button>
       </form>
       </div>
-
+      
       </div>
     );
   }

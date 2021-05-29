@@ -15,7 +15,7 @@ import kms from './../../images/kms.png';
 import matrix from './../../images/matrix.png';
 import moroccanoil from './../../images/moroccanoil.png';
 import sexyhairlogo from './../../images/sexyhairlogo.png';
-import bek1 from './../../images/bek1.jpg';
+import years from './../../images/years.png';
 import './index.css';
 
 class Home extends Component {
@@ -35,6 +35,10 @@ class Home extends Component {
           <div className="bek-photo-div">
             <img className="bekblkwhthome"src={bekblkwht}/>
           </div>
+
+          </div>
+          <div className="yearsDiv">
+            <img src={years}/>
           </div>
 
         </div>
