@@ -24,12 +24,13 @@ class Home extends Component {
     return (
       <div>
         <div className="top-intro-div">
-        <div className="mobile-home-card-div d-block  d-sm-none">
-          <div className="mobile-bek-photo-div d-block d-sm-none">
+        <div className="mobile-home-card-div d-block  d-sm-none ">
+          <div className="mobile-bek-photo-div d-block d-sm-none ">
             <img className="mobile-bekblkwhthome d-block d-md-none"src={bekblkwht}/>
           </div>
 
         </div>
+        <div className="picYears">
         <div>
         <div className="home-card-div d-none d-lg-block">
           <div className="bek-photo-div">
@@ -40,7 +41,7 @@ class Home extends Component {
           <div className="yearsDiv">
             <img src={years}/>
           </div>
-
+          </div>
         </div>
         <div className="missionBox">
           <div className="missionContent">
