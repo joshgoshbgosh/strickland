@@ -133,6 +133,7 @@
 }
 .testimonial {
   height: auto;
+  margin-top: 15%;
 }
 .missionBox {
   width: 100%;
@@ -171,4 +172,8 @@
   position:relative;
   bottom: 50%;
   left: 10%;
+}
+.testp {
+  font-weight: bold;
+  font-size: 12.5px;
 }

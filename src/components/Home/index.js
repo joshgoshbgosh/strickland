@@ -16,6 +16,9 @@ import matrix from './../../images/matrix.png';
 import moroccanoil from './../../images/moroccanoil.png';
 import sexyhairlogo from './../../images/sexyhairlogo.png';
 import years from './../../images/years.png';
+import wedseven from './../../images/wedseven.jpg';
+import wedFive from './../../images/wedFive.jpg';
+import wedFour from './../../images/wedFour.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -52,21 +55,55 @@ class Home extends Component {
             confident and beautiful.</p>
           </div>
         </div>
-        <div className="ratebox">
-          <div className="intro-right">
 
-          </div>
-
-        </div>
         </div>
 
 
         <div className="testimonial">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
+        <Carousel fade>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedFour}
+    />
+    <Carousel.Caption>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <p className="testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
+      <p className="testp">Jane Poole</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedseven}
+    />
+
+
+    <Carousel.Caption>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+      <p className="testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
+      <p className="testp">Erin Wheeler</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedFive}
+    />
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
         </div>
         <div className="products">
           <div className="rowOne">
