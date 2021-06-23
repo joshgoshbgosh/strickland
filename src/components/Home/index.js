@@ -57,7 +57,7 @@ class Home extends Component {
         </div>
 
 
-        <div className="testimonial">
+        <div className="testimonial d-none d-md-block">
         <Carousel fade>
   <Carousel.Item interval={3000}>
     <img
@@ -97,8 +97,14 @@ class Home extends Component {
       src={wedFive}
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+      <p className="testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
+            I have to give you all the credit.</p>
+        <p className="testp">Zel</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
