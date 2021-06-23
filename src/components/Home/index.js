@@ -36,7 +36,10 @@ class Home extends Component {
           </div>
 
           </div>
-          <div className="yearsDiv">
+          <div className="yearsDiv d-none d-lg-block">
+            <img src={years}/>
+          </div>
+          <div className="yearsDivPhone d-block d-sm-none">
             <img src={years}/>
           </div>
           </div>

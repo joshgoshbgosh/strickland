@@ -170,7 +170,14 @@
   margin-bottom: 8%;
 }
 .yearsDiv {
-  
+  position: relative;
+  margin-left: 80%;
+  bottom: 20rem;
+}
+.yearsDivPhone {
+  position: relative;
+  margin-left: 45%;
+  bottom: 13rem;
 }
 .testp {
   font-weight: bold;
