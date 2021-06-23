@@ -15,6 +15,7 @@
   width: 90.5%;
   display:flex;
   padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: center;
 
 }
@@ -85,7 +86,8 @@
 } */
 .home-card-div {
   width: 60%;
-  height: 410px;
+  height: auto;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 8%;
   transform: rotate(350deg);
@@ -168,10 +170,7 @@
   margin-bottom: 8%;
 }
 .yearsDiv {
-  float: right;
-  position:relative;
-  bottom: 50%;
-  left: 10%;
+  
 }
 .testp {
   font-weight: bold;
