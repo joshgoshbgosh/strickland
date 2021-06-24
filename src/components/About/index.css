@@ -1,0 +1,41 @@
+.topOutDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.midOutDiv {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-left: solid thin black;
+  border-right: solid thin black;
+
+}
+.innerOutDiv {
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+.innerOutDiv > img {
+  width:90%;
+}
+.bottomDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #FFE4DF;
+  opacity: 30%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.aboutContent {
+  width: 70%;
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

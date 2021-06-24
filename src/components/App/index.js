@@ -5,6 +5,7 @@ import Home from './../Home';
 import Footer from './../Footer';
 import Contact from './../Contact';
 import Services from './../Services';
+import About from './../About';
 import './index.css';
 
 
@@ -21,6 +22,7 @@ render(){
         <Route path='/'component={Home} exact/>
         <Route path='/contact'component={Contact}/>
         <Route path='/services'component={Services}/>
+        <Route path='/about'component={About}/>
       </Switch>
     </div>
       <Footer/>
