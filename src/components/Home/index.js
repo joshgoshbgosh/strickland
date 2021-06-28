@@ -56,7 +56,58 @@ class Home extends Component {
 
         </div>
 
+        <div className="mobile-testimonial d-block d-sm-none">
+        <Carousel fade>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedFour}
+    />
+    <Carousel.Caption>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <p className="mobile-testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
+      <p className="mobile-testp">Jane Poole</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedseven}
+    />
 
+
+    <Carousel.Caption>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+      <p className="mobile-testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
+      <p className="mobile-testp">Erin Wheeler</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={wedFive}
+    />
+    <Carousel.Caption>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+      <p className="mobile-testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
+            I have to give you all the credit.</p>
+        <p className="mobile-testp">Zel</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+        </div>
         <div className="testimonial d-none d-md-block">
         <Carousel fade>
   <Carousel.Item interval={3000}>
