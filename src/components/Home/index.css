@@ -185,7 +185,7 @@
   line-height: 38px;
   margin-bottom: 3%;
 }
-i {
+.fa-star {
   font-size: 20px;
 }
 .mobile-testp {
@@ -193,4 +193,9 @@ i {
   font-size: 13px;
   line-height: 18px;
   margin-bottom: 2%;
+}
+.mobile-testimonial {
+  margin-top: 10%;
+
+
 }

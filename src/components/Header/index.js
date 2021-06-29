@@ -13,16 +13,16 @@ function Header(props){
   return(
     <header>
     <Navbar sticky="top"collapseOnSelect expand="lg" bg="#00FFEF" variant="dark">
-    <Nav.Link href='/'>
+    <NavLink to='/'>
       <Image src={beklogoblack}width="200"height="200"className="d-inline-block align-top"to="/"/>
 
-      </Nav.Link>
+      </NavLink>
 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className=" mr-auto">
-    <Nav.Link className="nav-link nav-about"href='/about'>ABOUT</Nav.Link>
-    <Nav.Link className="nav-link nav-services"href='/services'>SERVICES</Nav.Link>
-    <Nav.Link className="nav-link nav-contact"href='/contact'>CONTACT</Nav.Link>
+    <NavLink className="nav-link nav-about"to='/about'>ABOUT</NavLink>
+    <NavLink className="nav-link nav-services"to='/services'>SERVICES</NavLink>
+    <NavLink className="nav-link nav-contact"to='/contact'>CONTACT</NavLink>
 
   </Nav>
   <Image
@@ -33,7 +33,7 @@ function Header(props){
 
        />
 
-  
+
 </Navbar.Collapse>
 </Navbar>
     </header>

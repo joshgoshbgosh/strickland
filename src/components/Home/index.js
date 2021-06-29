@@ -19,6 +19,7 @@ import years from './../../images/years.png';
 import wedseven from './../../images/wedseven.jpg';
 import wedFive from './../../images/wedFive.jpg';
 import wedFour from './../../images/wedFour.jpg';
+import josh from './../../images/josh.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -64,11 +65,11 @@ class Home extends Component {
       src={wedFour}
     />
     <Carousel.Caption>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
       <p className="mobile-testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
       <p className="mobile-testp">Jane Poole</p>
     </Carousel.Caption>
@@ -81,11 +82,11 @@ class Home extends Component {
 
 
     <Carousel.Caption>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
       <p className="mobile-testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
       <p className="mobile-testp">Erin Wheeler</p>
     </Carousel.Caption>
@@ -96,14 +97,32 @@ class Home extends Component {
       src={wedFive}
     />
     <Carousel.Caption>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
+
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
       <p className="mobile-testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
             I have to give you all the credit.</p>
         <p className="mobile-testp">Zel</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={josh}
+    />
+    <Carousel.Caption>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+      <p className="mobile-testp">Rebekah is awesome.  She has cut my hair multiple times and
+      has always done a great job.  She is really great at doing trendy hair cuts.
+      I am super pick about who cuts my hair.  Rebekah is 100%.</p>
+        <p className="mobile-testp">Josh</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -116,11 +135,11 @@ class Home extends Component {
       src={wedFour}
     />
     <Carousel.Caption>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
+      <i className="fas fa-star"></i>
       <p className="testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
       <p className="testp">Jane Poole</p>
     </Carousel.Caption>
@@ -133,11 +152,11 @@ class Home extends Component {
 
 
     <Carousel.Caption>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
       <p className="testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
       <p className="testp">Erin Wheeler</p>
     </Carousel.Caption>
@@ -148,14 +167,31 @@ class Home extends Component {
       src={wedFive}
     />
     <Carousel.Caption>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
       <p className="testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
             I have to give you all the credit.</p>
         <p className="testp">Zel</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src={josh}
+    />
+    <Carousel.Caption>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+      <p className="testp">Rebekah is awesome.  She has cut my hair multiple times and
+      has always done a great job.  She is really great at doing trendy hair cuts.
+      I am super pick about who cuts my hair.  Rebekah is 100%.</p>
+        <p className="testp">Josh</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
