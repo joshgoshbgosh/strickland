@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/strickland/static/css/main.9883b240.chunk.css",
+    "main.css": "/strickland/static/css/main.8a3a2fbe.chunk.css",
     "main.js": "/strickland/static/js/main.e4489937.chunk.js",
     "main.js.map": "/strickland/static/js/main.e4489937.chunk.js.map",
     "runtime-main.js": "/strickland/static/js/runtime-main.261a081f.js",
@@ -12,7 +12,7 @@
     "static/js/3.2b38e86c.chunk.js.map": "/strickland/static/js/3.2b38e86c.chunk.js.map",
     "index.html": "/strickland/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/strickland/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.9883b240.chunk.css.map": "/strickland/static/css/main.9883b240.chunk.css.map",
+    "static/css/main.8a3a2fbe.chunk.css.map": "/strickland/static/css/main.8a3a2fbe.chunk.css.map",
     "static/js/2.a5c853b3.chunk.js.LICENSE.txt": "/strickland/static/js/2.a5c853b3.chunk.js.LICENSE.txt",
     "static/media/aboutbek.e0b8590a.jpg": "/strickland/static/media/aboutbek.e0b8590a.jpg",
     "static/media/americancrew.25e8576d.png": "/strickland/static/media/americancrew.25e8576d.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.261a081f.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.a5c853b3.chunk.js",
-    "static/css/main.9883b240.chunk.css",
+    "static/css/main.8a3a2fbe.chunk.css",
     "static/js/main.e4489937.chunk.js"
   ]
 }
