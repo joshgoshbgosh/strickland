@@ -27,15 +27,17 @@
   display: flex;
   justify-content: center;
   background-color: #FFE4DF;
-  opacity: 30%;
+
   margin-top: 6%;
   margin-bottom: 6%;
 }
 .aboutContent {
   width: 70%;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   text-align: center;
   line-height: 30px;
   margin-top: 5%;
   margin-bottom: 5%;
+  /* color:#969696; */
+  font-weight: 100;
 }

@@ -145,7 +145,7 @@
   background-position: center;
   background-size: cover; */
   background-color: #FFE4DF;
-  opacity: 30%;
+
   margin-top: 1%;
 
 }
@@ -168,6 +168,9 @@
   margin-top: 5%;
   line-height: 60px;
   margin-bottom: 8%;
+  /* color:#969696; */
+  letter-spacing: 6px;
+  font-weight: 100;
 }
 .yearsDiv {
   position: relative;
