@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/strickland/static/css/main.8a3a2fbe.chunk.css",
-    "main.js": "/strickland/static/js/main.bd771ef9.chunk.js",
-    "main.js.map": "/strickland/static/js/main.bd771ef9.chunk.js.map",
+    "main.js": "/strickland/static/js/main.d47c37f4.chunk.js",
+    "main.js.map": "/strickland/static/js/main.d47c37f4.chunk.js.map",
     "runtime-main.js": "/strickland/static/js/runtime-main.261a081f.js",
     "runtime-main.js.map": "/strickland/static/js/runtime-main.261a081f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/strickland/static/css/2.4c97ca4f.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.a5c853b3.chunk.js",
     "static/css/main.8a3a2fbe.chunk.css",
-    "static/js/main.bd771ef9.chunk.js"
+    "static/js/main.d47c37f4.chunk.js"
   ]
 }
