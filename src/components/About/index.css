@@ -32,7 +32,7 @@
   margin-bottom: 6%;
 }
 .aboutContent {
-  width: 70%;
+  width: 80%;
   letter-spacing: 6px;
   text-align: center;
   line-height: 30px;
@@ -40,4 +40,5 @@
   margin-bottom: 5%;
   /* color:#969696; */
   font-weight: 100;
+  font-size: 12px;
 }

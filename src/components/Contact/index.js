@@ -36,10 +36,10 @@ class Contact extends Component {
         <input type="tel" name="tel" placeholder="TELEPHONE"/>
         <input type="email" name="email" placeholder="EMAIL"/>
         <input className="message"type="text" name="message" placeholder="MESSAGE"/>
-        <button className="submit"type="submit">SEND</button>
+        <button className="submit"type="submit">SUBMIT</button>
       </form>
       </div>
-      
+
       </div>
     );
   }

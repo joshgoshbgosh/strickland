@@ -48,154 +48,48 @@ class Home extends Component {
         <div className="missionBox">
           <div className="missionContent">
             <h1>MY MISSION</h1>
-            <p>My mission is to build strong relationships with my clients based on
-            trust, honesty, and communication.  I want everyone who sits in my chair
-            to feel like their voice is being heard.  When you leave I want you feeling
-            confident and beautiful.</p>
+            <p>My m<span className="i">i</span>ss<span className="i">i</span>on <span className="i">i</span>s to bu<span className="i">i</span>ld strong relat<span className="i">i</span>onsh<span className="i">i</span>ps w<span className="i">i</span>th my cl<span className="i">i</span>ents based on
+            trust, honesty, and commun<span className="i">i</span>cat<span className="i">i</span>on.  I want everyone who s<span className="i">i</span>ts <span className="i">i</span>n my cha<span className="i">i</span>r
+            to feel l<span className="i">i</span>ke the<span className="i">i</span>r vo<span className="i">i</span>ce <span className="i">i</span>s be<span className="i">i</span>ng heard.  When you leave I want you feel<span className="i">i</span>ng
+            conf<span className="i">i</span>dent and beaut<span className="i">i</span>ful.</p>
           </div>
         </div>
 
         </div>
 
-        <div className="mobile-testimonial d-block d-sm-none">
-        <Carousel fade>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedFour}
-    />
-    <Carousel.Caption>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <p className="mobile-testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
-      <p className="mobile-testp">Jane Poole</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedseven}
-    />
-
-
-    <Carousel.Caption>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="mobile-testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
-      <p className="mobile-testp">Erin Wheeler</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedFive}
-    />
-    <Carousel.Caption>
-
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="mobile-testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
+        <div className="testimonial ">
+          <div className="tmony">
+           <p className="testm">Testimonials</p>
+          </div>
+          <div className="test">
+            <p className="testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
+            <p className="testi">~ J<span className="a">a</span>ne Poole ~</p>
+          </div>
+          <div className="testline">
+          </div>
+          <div className="test">
+            <p className="testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
+            <p className="testi">~ Er<span className="a">i</span>n Wheeler ~</p>
+          </div>
+          <div className="testline">
+          </div>
+          <div className="test">
+            <p className="testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
             I have to give you all the credit.</p>
-        <p className="mobile-testp">Zel</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={josh}
-    />
-    <Carousel.Caption>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="mobile-testp">Rebekah is awesome.  She has cut my hair multiple times and
-      has always done a great job.  She is really great at doing trendy hair cuts.
-      I am super pick about who cuts my hair.  Rebekah is 100%.</p>
-        <p className="mobile-testp">Josh</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+            <p className="testi">~ Z<span className="a">e</span>l ~</p>
+          </div>
+          <div className="testline">
+          </div>
+          <div className="test">
+            <p className="testp">Rebekah is awesome.  She has cut my hair multiple times and
+            has always done a great job.  She is really great at doing trendy hair cuts.
+            I am super picky about who cuts my hair.  Rebekah is 100%.</p>
+            <p className="testi">~ J<span className="a">o</span>sh ~</p>
+          </div>
+          <div className="testline">
+          </div>
         </div>
-        <div className="testimonial d-none d-md-block">
-        <Carousel fade>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedFour}
-    />
-    <Carousel.Caption>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <i className="fas fa-star"></i>
-      <p className="testp">Excellent stylist.  Wonderful atmosphere.  Priced correctly.  Highly recommend Rebekah.</p>
-      <p className="testp">Jane Poole</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedseven}
-    />
 
-
-    <Carousel.Caption>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="testp">Rebekah is well educated, experienced, honest, and kind. She encompasses everything you are looking for when trusting someone with your hair. She goes the extra mile in making her client’s feel comfortable and confident. She is an expert in her field and provides personalized recommendations while accommodating each of her client’s unique styles. I have trusted Rebekah for over 8 years with all my hair needs from product suggestions, color, cuts, and updo’s. She is not only my lifelong stylist, but my friend. You will have the same feeling after the first time you sit in her chair!</p>
-      <p className="testp">Erin Wheeler</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={wedFive}
-    />
-    <Carousel.Caption>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="testp">Thanks for doing an amazing job on my hair.  The color & cut are always perfect.  I always get so many compliments on my hair.
-            I have to give you all the credit.</p>
-        <p className="testp">Zel</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item interval={3000}>
-    <img
-      className="d-block w-100"
-      src={josh}
-    />
-    <Carousel.Caption>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-    <i className="fas fa-star"></i>
-      <p className="testp">Rebekah is awesome.  She has cut my hair multiple times and
-      has always done a great job.  She is really great at doing trendy hair cuts.
-      I am super pick about who cuts my hair.  Rebekah is 100%.</p>
-        <p className="testp">Josh</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-        </div>
         <div className="products">
           <div className="rowOne">
             <a className="americancrew"href="https://www.americancrew.com/"target="_blank" rel="noopener noreferrer"><img className="americancrew"src={americancrew}/></a>
