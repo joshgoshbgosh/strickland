@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/strickland/static/css/main.8a3a2fbe.chunk.css",
-    "main.js": "/strickland/static/js/main.d47c37f4.chunk.js",
-    "main.js.map": "/strickland/static/js/main.d47c37f4.chunk.js.map",
-    "runtime-main.js": "/strickland/static/js/runtime-main.261a081f.js",
-    "runtime-main.js.map": "/strickland/static/js/runtime-main.261a081f.js.map",
+    "main.css": "/strickland/static/css/main.63d74fd0.chunk.css",
+    "main.js": "/strickland/static/js/main.0db6d714.chunk.js",
+    "main.js.map": "/strickland/static/js/main.0db6d714.chunk.js.map",
+    "runtime-main.js": "/strickland/static/js/runtime-main.e7628867.js",
+    "runtime-main.js.map": "/strickland/static/js/runtime-main.e7628867.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/strickland/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a5c853b3.chunk.js": "/strickland/static/js/2.a5c853b3.chunk.js",
-    "static/js/2.a5c853b3.chunk.js.map": "/strickland/static/js/2.a5c853b3.chunk.js.map",
-    "static/js/3.2b38e86c.chunk.js": "/strickland/static/js/3.2b38e86c.chunk.js",
-    "static/js/3.2b38e86c.chunk.js.map": "/strickland/static/js/3.2b38e86c.chunk.js.map",
+    "static/js/2.459cc3ef.chunk.js": "/strickland/static/js/2.459cc3ef.chunk.js",
+    "static/js/2.459cc3ef.chunk.js.map": "/strickland/static/js/2.459cc3ef.chunk.js.map",
+    "static/js/3.6b72ba5d.chunk.js": "/strickland/static/js/3.6b72ba5d.chunk.js",
+    "static/js/3.6b72ba5d.chunk.js.map": "/strickland/static/js/3.6b72ba5d.chunk.js.map",
     "index.html": "/strickland/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/strickland/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.8a3a2fbe.chunk.css.map": "/strickland/static/css/main.8a3a2fbe.chunk.css.map",
-    "static/js/2.a5c853b3.chunk.js.LICENSE.txt": "/strickland/static/js/2.a5c853b3.chunk.js.LICENSE.txt",
+    "static/css/main.63d74fd0.chunk.css.map": "/strickland/static/css/main.63d74fd0.chunk.css.map",
+    "static/js/2.459cc3ef.chunk.js.LICENSE.txt": "/strickland/static/js/2.459cc3ef.chunk.js.LICENSE.txt",
     "static/media/aboutbek.e0b8590a.jpg": "/strickland/static/media/aboutbek.e0b8590a.jpg",
     "static/media/americancrew.25e8576d.png": "/strickland/static/media/americancrew.25e8576d.png",
     "static/media/bedhead.d695cf33.png": "/strickland/static/media/bedhead.d695cf33.png",
@@ -37,10 +37,10 @@
     "static/media/years.af3bb5f4.png": "/strickland/static/media/years.af3bb5f4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.261a081f.js",
+    "static/js/runtime-main.e7628867.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.a5c853b3.chunk.js",
-    "static/css/main.8a3a2fbe.chunk.css",
-    "static/js/main.d47c37f4.chunk.js"
+    "static/js/2.459cc3ef.chunk.js",
+    "static/css/main.63d74fd0.chunk.css",
+    "static/js/main.0db6d714.chunk.js"
   ]
 }
