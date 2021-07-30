@@ -38,7 +38,7 @@ class Footer extends Component {
               <p>Salon 55</p>
             </div>
             <div className="adddiv">
-              <a className="address" href="https://www.google.com/maps/place/Salon+55/@35.5266478,-78.7469193,17z/data=!3m2!4b1!5s0x89ac8678534ead99:0xada10443779e3cf8!4m5!3m4!1s0x89ac8679aa1a9bc5:0xc3d943bc098a6cf0!8m2!3d35.5266435!4d-78.7447306"target="_blank" rel="noopener noreferrer">1363 N Raliegh, Angier, NC 27501</a>
+              <a className="address" href="https://www.google.com/maps/place/Salon+55/@35.5266478,-78.7469193,17z/data=!3m2!4b1!5s0x89ac8678534ead99:0xada10443779e3cf8!4m5!3m4!1s0x89ac8679aa1a9bc5:0xc3d943bc098a6cf0!8m2!3d35.5266435!4d-78.7447306"target="_blank" rel="noopener noreferrer">1363 N Raleigh, Angier, NC 27501</a>
             </div>
 
           </div>
