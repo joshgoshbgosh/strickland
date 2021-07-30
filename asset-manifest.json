@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/strickland/static/css/main.63d74fd0.chunk.css",
-    "main.js": "/strickland/static/js/main.0db6d714.chunk.js",
-    "main.js.map": "/strickland/static/js/main.0db6d714.chunk.js.map",
+    "main.css": "/strickland/static/css/main.6280b2a6.chunk.css",
+    "main.js": "/strickland/static/js/main.02a39191.chunk.js",
+    "main.js.map": "/strickland/static/js/main.02a39191.chunk.js.map",
     "runtime-main.js": "/strickland/static/js/runtime-main.e7628867.js",
     "runtime-main.js.map": "/strickland/static/js/runtime-main.e7628867.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/strickland/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6b72ba5d.chunk.js.map": "/strickland/static/js/3.6b72ba5d.chunk.js.map",
     "index.html": "/strickland/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/strickland/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.63d74fd0.chunk.css.map": "/strickland/static/css/main.63d74fd0.chunk.css.map",
+    "static/css/main.6280b2a6.chunk.css.map": "/strickland/static/css/main.6280b2a6.chunk.css.map",
     "static/js/2.459cc3ef.chunk.js.LICENSE.txt": "/strickland/static/js/2.459cc3ef.chunk.js.LICENSE.txt",
     "static/media/aboutbek.e0b8590a.jpg": "/strickland/static/media/aboutbek.e0b8590a.jpg",
     "static/media/americancrew.25e8576d.png": "/strickland/static/media/americancrew.25e8576d.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.e7628867.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.459cc3ef.chunk.js",
-    "static/css/main.63d74fd0.chunk.css",
-    "static/js/main.0db6d714.chunk.js"
+    "static/css/main.6280b2a6.chunk.css",
+    "static/js/main.02a39191.chunk.js"
   ]
 }
