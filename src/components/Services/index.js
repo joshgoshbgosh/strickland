@@ -2,11 +2,8 @@ import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import services from './../../images/services.jpg';
-import wedOne from './../../images/wedOne.jpg';
-import wedTwo from './../../images/wedTwo.JPG';
-import wedThree from './../../images/wedThree.jpg';
-import wedFour from './../../images/wedFour.jpg';
-import wedFive from './../../images/wedFive.jpg';
+
+
 import inquire from './../../images/inquire.png';
 import scissors from './../../images/scissors.png';
 import './index.css';
@@ -16,12 +13,11 @@ class Services extends Component {
 
     return (
       <div>
+
         <div className="toppic">
           <img src={services}/>
         </div>
-        <div className="inqButton d-none d-lg-block">
-          <a href="/contact"><img className="inq"src={inquire}/></a>
-        </div>
+        
         <div className="cuts">
           <h2 className="">H<span className="a">A</span>IR CUTS</h2>
           <h4>L<span className="a">A</span>DIES</h4>

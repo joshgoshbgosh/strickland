@@ -11,6 +11,7 @@ class Footer extends Component {
     return(
 
       <div>
+      
       <footer>
       <div className="hoursDiv">
           <p className="ptag hour">HOURS</p>

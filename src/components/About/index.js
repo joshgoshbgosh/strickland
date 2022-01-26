@@ -9,6 +9,7 @@ class About extends Component {
   render(){
     return(
       <div>
+
           <div className="topOutDiv">
             <div className="midOutDiv">
               <div className="innerOutDiv">
@@ -24,6 +25,7 @@ class About extends Component {
           and the smile on their face is priceless.
           </p>
           </div>
+      
       </div>
     );
   }

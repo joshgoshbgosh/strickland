@@ -16,9 +16,7 @@ import matrix from './../../images/matrix.png';
 import moroccanoil from './../../images/moroccanoil.png';
 import sexyhairlogo from './../../images/sexyhairlogo.png';
 import years from './../../images/years.png';
-import wedseven from './../../images/wedseven.jpg';
-import wedFive from './../../images/wedFive.jpg';
-import wedFour from './../../images/wedFour.jpg';
+
 import josh from './../../images/josh.jpg';
 import './index.css';
 
@@ -27,6 +25,7 @@ class Home extends Component {
 
     return (
       <div>
+
         <div className="top-intro-div">
 
         <div className="picYears">
@@ -117,6 +116,7 @@ class Home extends Component {
             <a className="sexyhairlogo"href="https://www.sexyhair.com/"target="_blank" rel="noopener noreferrer"><img className="sexyhairlogo"src={sexyhairlogo}/></a>
           </div>
         </div>
+
       </div>
 
     );
