@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7bbccd68.chunk.css",
-    "main.js": "/static/js/main.02a39191.chunk.js",
-    "main.js.map": "/static/js/main.02a39191.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.210602c9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.210602c9.js.map",
+    "main.js": "/static/js/main.3864a351.chunk.js",
+    "main.js.map": "/static/js/main.3864a351.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2696a8db.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2696a8db.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.459cc3ef.chunk.js": "/static/js/2.459cc3ef.chunk.js",
-    "static/js/2.459cc3ef.chunk.js.map": "/static/js/2.459cc3ef.chunk.js.map",
-    "static/js/3.6b72ba5d.chunk.js": "/static/js/3.6b72ba5d.chunk.js",
-    "static/js/3.6b72ba5d.chunk.js.map": "/static/js/3.6b72ba5d.chunk.js.map",
+    "static/js/2.7c07858d.chunk.js": "/static/js/2.7c07858d.chunk.js",
+    "static/js/2.7c07858d.chunk.js.map": "/static/js/2.7c07858d.chunk.js.map",
+    "static/js/3.11ec64e8.chunk.js": "/static/js/3.11ec64e8.chunk.js",
+    "static/js/3.11ec64e8.chunk.js.map": "/static/js/3.11ec64e8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.7bbccd68.chunk.css.map": "/static/css/main.7bbccd68.chunk.css.map",
-    "static/js/2.459cc3ef.chunk.js.LICENSE.txt": "/static/js/2.459cc3ef.chunk.js.LICENSE.txt",
+    "static/js/2.7c07858d.chunk.js.LICENSE.txt": "/static/js/2.7c07858d.chunk.js.LICENSE.txt",
     "static/media/aboutbek.e0b8590a.jpg": "/static/media/aboutbek.e0b8590a.jpg",
     "static/media/americancrew.25e8576d.png": "/static/media/americancrew.25e8576d.png",
     "static/media/bedhead.d695cf33.png": "/static/media/bedhead.d695cf33.png",
@@ -28,19 +28,13 @@
     "static/media/services.8d278bdd.jpg": "/static/media/services.8d278bdd.jpg",
     "static/media/sexyhairlogo.4e340fb8.png": "/static/media/sexyhairlogo.4e340fb8.png",
     "static/media/strdesigntwo.9a03185c.png": "/static/media/strdesigntwo.9a03185c.png",
-    "static/media/wedFive.2d43aeaf.jpg": "/static/media/wedFive.2d43aeaf.jpg",
-    "static/media/wedFour.615d669a.jpg": "/static/media/wedFour.615d669a.jpg",
-    "static/media/wedOne.bbcf61fc.jpg": "/static/media/wedOne.bbcf61fc.jpg",
-    "static/media/wedThree.5fc0114b.jpg": "/static/media/wedThree.5fc0114b.jpg",
-    "static/media/wedTwo.f625d64e.JPG": "/static/media/wedTwo.f625d64e.JPG",
-    "static/media/wedseven.6374f63c.jpg": "/static/media/wedseven.6374f63c.jpg",
     "static/media/years.af3bb5f4.png": "/static/media/years.af3bb5f4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.210602c9.js",
+    "static/js/runtime-main.2696a8db.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.459cc3ef.chunk.js",
+    "static/js/2.7c07858d.chunk.js",
     "static/css/main.7bbccd68.chunk.css",
-    "static/js/main.02a39191.chunk.js"
+    "static/js/main.3864a351.chunk.js"
   ]
 }
